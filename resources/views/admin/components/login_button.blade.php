@@ -1,0 +1,1 @@
+<a href="{{ route('login' )}}" class="btn-fill-color btn btn-block mb-4 text-uppercase">{{ __('generics.login') }}</a>

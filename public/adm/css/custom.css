@@ -1,0 +1,274 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 28, 2018, 11:56:58 PM
+    Author     : pramirez
+*/
+
+.sidebar-menu > li .badge{position: absolute; right: 3px;}
+
+.hr-line{margin: 10px 0; background: #f4f4f4; height: 1px; display: block; }
+.dataTables_length{float: right; margin-left: 10px;}
+.dataTables_filter{float: right; margin-bottom: 10px;}
+.html5buttons{float: left; margin-bottom: 10px;}
+table.dataTable{clear: both;}
+.dataTables_info{float: left;}
+div.dataTables_wrapper div.dataTables_processing{width: 50px; z-index: 999;}
+dataTables_wrapper{min-height: 200px;}
+
+.box-body > .row{margin: 0}
+.btn.btn-primary,
+.btn.btn-danger{color: #fff;}
+
+a.btn{
+    display: inline-block;
+}
+
+.form-actions{margin-top: 19px; padding-top: 19px; border-top: 1px #f4f4f4 solid; overflow: hidden; text-align: center; margin-bottom: 20px;}
+/*.form-actions .btn{margin: 0 10px;}
+.form-actions .btn:first-child{margin-left: 0}
+.form-actions .btn:last-child{margin-right: 0}
+.form-actions>*{padding-left: 0; padding-right: 0}*/
+
+
+.status{color: #fff; font-size: .9em; background: #727272; border-radius: 3px; padding: 3px 5px; display: inline-block}
+.status.status-pending{background-color: #f39c12}
+.status.status-active,
+.status.status-approved,
+.status.status-completed{background-color: #00a65a}
+.status.status-suspended{background-color: #dd4b39}
+.status.status-rejected,
+.status.status-cancelled{background-color: #dd4b39}
+.status.status-accepted{background-color: #00a65a}
+.status.status-0{background-color: #dd4b39}
+.status.status-1{background-color: #00a65a}
+
+.top-filter{margin-bottom: 20px;}
+
+
+.size-xs{width: 50px}
+.size-s{width: 100px}
+.size-m{width: 150px}
+.size-l{width: 200px}
+.size-xl{width: 250px}
+.size-xxl{width: 300px}
+.size-xxxl{width: 350px}
+
+.text-1x{font-size: 1em !important;}
+.text-15x{font-size: 1.5em !important;}
+
+.text-normal{font-weight: normal!important;}
+
+
+.my-20px{margin-top: 20px!important; margin-bottom: 20px !important;}
+
+.text-right{text-align: right;}
+
+.form-group-vertical{margin: 5px 0}
+.form-group-vertical .col{padding-left: 0!important}
+.form-group-vertical .control-label{padding: 0!important; text-align: left; float: none;}
+.form-group-vertical .has-feedback label~.form-control-feedback{top:22px!important}
+
+.swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right)>.swal2-modal{font-size: 15px !important;}
+
+
+.cloud{cursor: pointer; margin-bottom: 40px; background: #6cf; color: #fff; border-color: #6cf}
+.cloud a{color: #fff;}
+.cloud.active{background: #1f497d!important; border-color:#1f497d!important;/* transform: translateY(30px)*/}
+.cloud:hover{opacity: .8;}
+.cloud.disabled{background: #637581; color: #fff; border-color: #637581;}
+.card.cloud .card-title{font-size: 30px; line-height: 40px; text-align: center; margin: 0}
+.card.cloud.ars .card-title{line-height: 70px;}
+.card.cloud .card-text{line-height: 30px; font-size: 20px; text-align: center;}
+
+/*
+.alert-success {
+    background-color: #dff0d8!important;
+    border-color: #d0e9c6!important;
+    color: #3c763d!important;
+}
+
+.alert-info {
+    background-color: #d9edf7!important;
+    border-color: #bcdff1!important;
+    color: #31708f!important;
+}
+
+.alert-warning {
+    background-color: #fcf8e3!important;
+    border-color: #faf2cc!important;
+    color: #8a6d3b!important;
+}
+*/
+
+/* DASHBOARD STYLES*/
+.logged-in-users{font-size: 20px; font-weight: bold; line-height: 40px;}
+.logged-in-users .badge{font-size: 20px; font-weight: bold;  line-height: 40px; min-width: 80px;}
+.small-input{width:100px; display: inline-block; margin-left: 10px;}
+
+.invalid-feedback{
+    color: #ff3333;
+    font-weight: normal!important;
+    display: block;
+}
+
+.invalid-feedback strong{
+    font-weight: normal;
+}
+
+.is-invalid{
+    border-color: #ff3333!important;
+}
+/*
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}*/
+
+
+.header-tools{
+    margin-bottom: 2em;
+    overflow: hidden;
+}
+
+
+
+.imageFileField {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer!important;
+    display: inline-block;
+    margin: 0 auto;
+}
+.imageFileField *{
+    cursor: pointer;
+}
+.imageFileField input[type="file"] {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 999em;
+    width: 999em;
+    opacity: 0;
+    font-size: 100px;
+    filter: alpha(opacity=0);
+    cursor: pointer!important;
+}
+
+.imageFileField.display{
+    /*background: url('../img/imgloading.gif') center center no-repeat; background-size: contain;*/
+
+}
+
+.imageFileField.display .uploadIcon{
+    content: "\f030";
+    font-family: 'FontAwesome';
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    vertical-align: middle;
+    justify-content: center;
+    background: rgba(0,0,0,.3);
+    display: block;
+    position: absolute;
+    opacity: 0;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    transition: opacity 0.3s linear;
+}
+
+.imageFileField.display .uploadIcon .fa{
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    margin-top: -20px;
+}
+
+.imageFileField.display:hover .uploadIcon{
+    opacity: 1;
+}
+
+.imageFileField .showFile{
+    border: 1px dashed #ddd;
+    border-radius: 3px;
+    display: block;
+    margin: 0 auto;
+    background: url('/img/logo.png') center center no-repeat #efefef;
+    background-size: contain;
+}
+
+.imageFileField.has-image .showFile{
+    background-image: none;
+}
+
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    background-color: #00a65a;
+    border-color: #367fa9;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove{
+    color: #fff;
+}
+
+.show-hide{
+    display: none!important;
+}
+
+.show-hide.show{
+    display: block!important;
+}
+
+.leaflet-div-icon{
+    background: transparent;
+    border:none;
+}
+
+.map-marker{
+    border: none;
+    background: transparent;
+    position: relative;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 1px;
+    border: 2px solid #f00;
+
+}
+
+.map-marker:after{
+    content: '';
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(255, 0, 0, 0);
+    border-top-color: #ff0000;
+    border-width: 10px;
+    margin-left: -10px;
+    margin-top: -2px;
+}
+
+.map-marker img{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}

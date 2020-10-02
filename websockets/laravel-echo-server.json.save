@@ -1,0 +1,33 @@
+{
+    "authHost": "http://vaceate.test",
+    "authEndpoint": "/broadcasting/auth",
+    "clients": [
+        {
+            "appId": "vaceate_app",
+            "key": "e828e9529054d23428e113be343107ca"
+        }
+    ],
+    "database": "redis",
+    "databaseConfig": {
+        "redis": {},
+        "sqlite": {
+            "databasePath": "/database/laravel-echo-server.sqlite"
+        }
+    },
+    "devMode": true,
+    "host": null,
+    "port": "8080",
+ipconfig
+    "protocol": "http",
+    "socketio": {},
+    "sslCertPath": "",
+    "sslKeyPath": "", 
+    "sslCertChainPath": "",
+    "sslPassphrase": "",
+    "apiOriginAllow": {
+        "allowCors": true,
+        "allowOrigin": "*",
+        "allowMethods": "GET, POST, OPTIONS, PUT, PATCH, DELETE",
+        "allowHeaders": "Origin, Content-Type, X-Auth-Token, X-Requested-With, Accept, Authorization, X-CSRF-TOKEN, X-Socket-Id"
+    }
+}
